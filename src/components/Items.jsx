@@ -1,9 +1,15 @@
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+import Pagination from './Pagination'; // Import the Pagination component
+
 
 const Items = () => {
     const [items, setItems] = useState([]);
+    const [currentPage, setCurrentPage] = useState(1);
+    const articlesPerPage = 9; // Number of articles to show per page
+
+
     useEffect(()=>{
         axios.get('../../public/data.json')
         .then(r =>{
@@ -11,14 +17,22 @@ const Items = () => {
         })
     },[])
 
-// console.log(items)
+
+    const indexOfLastArticle = currentPage * articlesPerPage;
+    const indexOfFirstArticle = indexOfLastArticle - articlesPerPage;
+    const currentArticles = items.slice(indexOfFirstArticle, indexOfLastArticle);
+    const totalPages = Math.ceil(items.length / articlesPerPage);
+
+
     return (
         <div>
             <div className="grid grid-cols-3 gap-3 mt-5">
                 {
-                    items.map(item => <Item item={item} key={item.name}></Item>)
+                    currentArticles.map(item => <Item item={item} key={item.name}></Item>)
                 }
+
             </div>
+            <Pagination totalPages={totalPages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
             
         </div>
     );
@@ -30,19 +44,19 @@ const Item =({item})=>{
     console.log(item)
 
     return(
-        <div className="border lg:p-3 bg-gray-200 rounded-xl">
-            <img src={item.image} className='rounded-xl  h-[200px] w-[200px] object-cover' alt="Image Loading" />
-            <div className="text-left">
+        <div className="border flex flex-col justify-between lg:p-3 bg-gray-200 rounded-xl h-[35rem]">
+            <img src={item.image} className='rounded-xl  h-[60%] w-[100%] object-cover' alt="Image Loading" />
+            <div className="text-left ">
                 <p className="text-2xl mt-2">{item.name}</p>
-                <p className="mb-2">{item.category}</p>
+                <p className="mb-5">{item.category}</p>
                 <p>{item.description}</p>
-                <div className="flex justify-between mt-4">
-                    <div className="flex gap-1 items-center">
-                        <p>★</p>
-                        <p>{item.ratings}</p>
-                    </div>
-                    <p className="text-xl">${item.price}</p>
+            </div>
+            <div className="flex justify-between mt-4 ">
+                <div className="flex gap-1 items-center">
+                    <p>★</p>
+                    <p className="font-bold">{item.ratings}</p>
                 </div>
+                <p className="text-xl font-bold">${item.price}</p>
             </div>
         </div>
     )

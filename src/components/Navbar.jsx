@@ -13,7 +13,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">Venus</a>
+                    <a className="btn btn-ghost text-3xl">Venus</a>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="form-control">

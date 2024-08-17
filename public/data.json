@@ -2,7 +2,7 @@
     {
         "name": "Wireless Bluetooth Headphones",
         "image": "https://i.ibb.co/WfQMP1q/Wireless-Bluetooth-Headphones.jpg",
-        "description": "High-quality wireless Bluetooth headphones with noise-cancellation and up to 20 hours of battery life.",
+        "description": "High-quality wireless Bluetooth headphones with noise-cancellation and up to 20 hours.",
         "price": 79.99,
         "category": "Electronics",
         "ratings": 4.5
@@ -18,7 +18,7 @@
     {
         "name": "Smartphone",
         "image": "https://i.ibb.co/Mgd1s0H/Smartphone.jpg",
-        "description": "Latest model smartphone with 128GB storage, 6GB RAM, dual cameras, and a long-lasting battery.",
+        "description": "Latest model smartphone with 128GB storage, 6GB RAM, dual cameras.",
         "price": 699.99,
         "category": "Electronics",
         "ratings": 4.3
