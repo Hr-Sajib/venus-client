@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Wireless Bluetooth Headphones",
+        "image": "https://i.ibb.co/WfQMP1q/Wireless-Bluetooth-Headphones.jpg",
+        "description": "High-quality wireless Bluetooth headphones with noise-cancellation and up to 20 hours of battery life.",
+        "price": 79.99,
+        "category": "Electronics",
+        "ratings": 4.5
+    },
+    {
+        "name": "Ergonomic Office Chair",
+        "image": "https://i.ibb.co/wzBb1z3/Ergonomic-Office-Chair.jpg",
+        "description": "Comfortable ergonomic office chair with adjustable height, lumbar support, and breathable mesh back.",
+        "price": 149.99,
+        "category": "Furniture",
+        "ratings": 4.7
+    },
+    {
+        "name": "Smartphone",
+        "image": "https://i.ibb.co/Mgd1s0H/Smartphone.jpg",
+        "description": "Latest model smartphone with 128GB storage, 6GB RAM, dual cameras, and a long-lasting battery.",
+        "price": 699.99,
+        "category": "Electronics",
+        "ratings": 4.3
+    },
+    {
+        "name": "Running Shoes",
+        "image": "https://i.ibb.co/WzfL3pC/Running-Shoes.webp",
+        "description": "Lightweight running shoes with cushioned soles, perfect for daily runs and workouts.",
+        "price": 59.99,
+        "category": "Sportswear",
+        "ratings": 4.6
+    },
+    {
+        "name": "Coffee Maker",
+        "image": "https://i.ibb.co/qpGTjxF/Coffee-Maker.jpg",
+        "description": "Automatic drip coffee maker with programmable settings and a 12-cup capacity.",
+        "price": 39.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.2
+    },
+    {
+        "name": "LED Desk Lamp",
+        "image": "https://i.ibb.co/Y2pXzFJ/LED-Desk-Lamp.jpg",
+        "description": "Energy-efficient LED desk lamp with adjustable brightness and touch controls.",
+        "price": 25.99,
+        "category": "Home Office",
+        "ratings": 4.4
+    },
+    {
+        "name": "Gaming Laptop",
+        "image": "https://i.ibb.co/99vKYVR/Gaming-Laptop.webp",
+        "description": "High-performance gaming laptop with NVIDIA GTX graphics, 16GB RAM, and a 512GB SSD.",
+        "price": 1199.99,
+        "category": "Electronics",
+        "ratings": 4.8
+    },
+    {
+        "name": "Fitness Tracker",
+        "image": "https://i.ibb.co/ct7fxjD/Fitness-Tracker.jpg",
+        "description": "Water-resistant fitness tracker with heart rate monitor, sleep tracking, and step counter.",
+        "price": 49.99,
+        "category": "Wearables",
+        "ratings": 4.3
+    },
+    {
+        "name": "Blender",
+        "image": "https://i.ibb.co/CtScLWx/Blender.jpg",
+        "description": "Powerful blender with multiple speed settings, perfect for smoothies, soups, and sauces.",
+        "price": 89.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.5
+    },
+    {
+        "name": "Electric Kettle",
+        "image": "https://i.ibb.co/B6y3V2b/Electric-Kettle.webp",
+        "description": "Fast-boiling electric kettle with 1.7L capacity and automatic shut-off.",
+        "price": 29.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.4
+    },
+    {
+        "name": "Noise-Cancelling Earbuds",
+        "image": "https://i.ibb.co/ZHyMKsR/Noise-Cancelling-Earbuds.webp",
+        "description": "Compact noise-cancelling earbuds with excellent sound quality and long battery life.",
+        "price": 129.99,
+        "category": "Electronics",
+        "ratings": 4.6
+    },
+    {
+        "name": "Laptop Backpack",
+        "image": "https://i.ibb.co/mBJ4VV5/Laptop-Backpack.webp",
+        "description": "Durable laptop backpack with multiple compartments, fits up to 17-inch laptops.",
+        "price": 49.99,
+        "category": "Accessories",
+        "ratings": 4.5
+    },
+    {
+        "name": "4K Ultra HD TV",
+        "image": "https://i.ibb.co/ZBMy3PD/4-K-Ultra-HD-TV.png",
+        "description": "55-inch 4K Ultra HD TV with smart features and HDR support.",
+        "price": 499.99,
+        "category": "Electronics",
+        "ratings": 4.7
+    },
+    {
+        "name": "Electric Toothbrush",
+        "image": "https://i.ibb.co/mc65bh1/Electric-Toothbrush.jpg",
+        "description": "Rechargeable electric toothbrush with multiple brushing modes and a 2-minute timer.",
+        "price": 39.99,
+        "category": "Personal Care",
+        "ratings": 4.3
+    },
+    {
+        "name": "Smart Thermostat",
+        "image": "https://i.ibb.co/PD3KWHx/Smart-Thermostat.jpg",
+        "description": "Wi-Fi-enabled smart thermostat that learns your schedule and saves energy.",
+        "price": 179.99,
+        "category": "Home Automation",
+        "ratings": 4.6
+    },
+    {
+        "name": "Espresso Machine",
+        "image": "https://i.ibb.co/tJLwwVK/Espresso-Machine.jpg",
+        "description": "Professional-grade espresso machine with built-in grinder and steam wand.",
+        "price": 299.99,
+        "category": "Kitchen Appliances",
+        "ratings": 4.5
+    },
+    {
+        "name": "Electric Scooter",
+        "image": "https://i.ibb.co/hdWv0vQ/Electric-Scooter.webp",
+        "description": "Lightweight electric scooter with a top speed of 15 mph and a range of 20 miles.",
+        "price": 349.99,
+        "category": "Transportation",
+        "ratings": 4.4
+    },
+    {
+        "name": "Portable Hard Drive",
+        "image": "https://i.ibb.co/rZ4VXSK/Portable-Hard-Drive.webp",
+        "description": "2TB portable hard drive with USB 3.0, compatible with PC and Mac.",
+        "price": 79.99,
+        "category": "Electronics",
+        "ratings": 4.6
+    },
+    {
+        "name": "Air Purifier",
+        "image": "https://i.ibb.co/mX6xVbb/Air-Purifier.webp",
+        "description": "HEPA air purifier with a 3-stage filtration system, ideal for allergies and smoke.",
+        "price": 129.99,
+        "category": "Home Appliances",
+        "ratings": 4.5
+    },
+    {
+        "name": "Wireless Mouse",
+        "image": "https://i.ibb.co/ZJY1P38/Wireless-Mouse.webp",
+        "description": "Ergonomic wireless mouse with adjustable DPI and long battery life.",
+        "price": 24.99,
+        "category": "Accessories",
+        "ratings": 4.2
+    }
+]
